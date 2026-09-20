@@ -56,7 +56,7 @@ export const HomeView: React.FC<HomeViewProps> = ({
       subtitle: 'From ₦5,500',
       tag: 'Kids & Adult Whites/Colors',
       cat: 'Jalabiyas',
-      image: '/assets/images/white_jalabia_mannequin_1789896330008.jpg'
+      image: '/assets/images/jalabia_kids_adults_stock.jpg'
     },
     {
       name: 'Kimonos',

@@ -144,22 +144,23 @@ export const PRODUCTS: Product[] = [
     subCategory: 'Adult Modest Jalabia',
     price: 6000,
     priceFormatted: '₦6,000',
-    image: '/assets/images/white_jalabia_mannequin_1789896330008.jpg',
+    image: '/assets/images/jalabia_kids_adults_stock.jpg',
     gallery: [
+      '/assets/images/jalabia_kids_adults_stock.jpg',
       '/assets/images/white_jalabia_mannequin_1789896330008.jpg'
     ],
     isNewArrival: true,
-    isPopular: false,
+    isPopular: true,
     availability: 'In Stock',
-    condition: 'Clean select modest jalabia (Adult fit)',
-    sizes: ['M (54)', 'L (56)', 'XL (58)', 'XXL (60)'],
-    colors: ['Clean White', 'Emerald Green', 'Royal Navy', 'Sand Stone'],
-    description: 'Comfortable and lightweight adult jalabias designed for ease, prayer, and relaxation. Features clean collar designs with subtle embroidery stitching.',
+    condition: 'Clean select modest jalabia — Kids & Adults sizes, packaged & ready',
+    sizes: ['Size 40 (Kids)', 'Size 42 (Kids)', 'Size 44 (Adults)', 'Size 46 (Adults)', 'Size 48 (Adults)', 'Size 50 (Adults)'],
+    colors: ['Pure White', 'Off-White / Cream', 'Light Lavender', 'Beige Khaki'],
+    description: 'Neatly packaged clean jalabias for both kids and adults. Available in multiple collar styles — mandarin collar, embroidered chest panel, classic button placket — all sealed in individual polythene bags ready for delivery.',
     features: [
-      'Comfortable lightweight breathable fabric',
-      'Modest cut suitable for women and men',
-      'Clean white and rich neutral colors',
-      'Bulk purchase available for resellers'
+      'Available in Kids & Adults sizing (40–50)',
+      'Multiple collar & embroidery styles in one stock',
+      'Individually sealed in polythene — hygenic & gift-ready',
+      'Ideal for Friday prayers, Eid, and Islamic school'
     ],
     wholesaleAvailable: true,
   },
@@ -170,21 +171,22 @@ export const PRODUCTS: Product[] = [
     subCategory: 'Children Jalabia',
     price: 5500,
     priceFormatted: '₦5,500',
-    image: '/assets/images/kids_jalabia_white.jpg',
+    image: '/assets/images/jalabia_kids_adults_stock.jpg',
     gallery: [
-      '/assets/images/kids_jalabia_white.jpg'
+      '/assets/images/jalabia_kids_adults_stock.jpg'
     ],
     isNewArrival: false,
     isPopular: true,
     availability: 'In Stock',
-    condition: 'Clean quality modest jalabia for kids',
-    sizes: ['Ages 3-5', 'Ages 6-8', 'Ages 9-12'],
-    colors: ['Pure White', 'Sky Blue', 'Mint Green'],
-    description: 'Classic clean jalabias for children. Designed for Friday prayers, Islamic classes (Madrasa), and festive occasions.',
+    condition: 'Clean quality modest jalabia for kids — neatly packaged',
+    sizes: ['Size 40', 'Size 42', 'Size 44'],
+    colors: ['Pure White', 'Off-White / Cream', 'Light Lavender'],
+    description: 'Classic clean jalabias for children in neat polythene packaging. Available in embroidered neck, mandarin collar, and plain button-up styles. Perfect for Friday prayers, Islamic school, and festive occasions.',
     features: [
-      'Durable easy-wash fabric',
-      'Modest length with comfortable chest fit',
-      'Washed and ironed ready to wear'
+      'Various embroidery and collar styles available',
+      'Hygienically sealed in individual polythene bags',
+      'Modest length with comfortable fit for active children',
+      'Ideal bulk purchase for resellers & school uniforms'
     ],
     wholesaleAvailable: true,
   },
