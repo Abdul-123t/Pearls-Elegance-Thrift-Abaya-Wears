@@ -167,46 +167,51 @@ export const PRODUCTS: Product[] = [
     price: 12500,
     priceFormatted: '₦10,000 – ₦15,000',
     priceNote: 'Price: ₦10,000 – ₦15,000 depending on style',
-    image: '/assets/images/kinomo_set_mannequin_1789896343549.jpg',
+    image: '/assets/images/kimono_black_embroidered_belt_01.jpg',
     gallery: [
-      '/assets/images/kinomo_set_mannequin_1789896343549.jpg'
+      '/assets/images/kimono_black_embroidered_belt_01.jpg',
+      '/assets/images/kimono_floral_trim_satin_02.jpg',
+      '/assets/images/kimono_floral_trim_white_inner_03.jpg',
+      '/assets/images/kimono_navy_blue_inner_04.jpg'
     ],
     isNewArrival: true,
     isPopular: true,
     availability: 'Few Pieces Left',
     condition: 'Thrift kinomo layer paired with coordinating new inner dress',
     sizes: ['M', 'L', 'XL', 'Free Size'],
-    colors: ['Mocha Brown Set', 'Taupe Earth Set', 'Classic Noir Set'],
-    description: 'A stylish 2-piece combination featuring an open-front flowing thrift kinomo (kimono) jacket paired with a new matching inner gown. Offers versatility and modest elegance.',
+    colors: ['Jet Black & Silver Satin Inner', 'Black Floral Trim & Blush Satin Inner', 'Midnight Navy & Royal Blue Inner'],
+    description: 'A stylish 2-piece combination featuring an open-front flowing thrift kinomo (kimono) jacket paired with a coordinating inner dress and braided tassel belt. Offers versatility and modest elegance.',
     features: [
-      'Includes open outer kinomo + inner dress',
+      'Includes open outer kinomo + inner dress + tassel waist tie belt',
+      'Intricate sleeve and collar embroidery accent trim',
       'Can be styled together or worn separately',
-      'Neatly packaged and ready to wear',
-      'High-demand modest style for retail & resale'
+      'Neatly packaged and ready to wear'
     ],
     wholesaleAvailable: true,
   },
   {
     id: 'chiffon-kimono-outer-15',
-    name: 'Open-Front Chiffon Kimono Robe',
+    name: 'Open-Front Floral Trim Kimono Abaya',
     category: 'Kimonos',
     subCategory: 'Kimono Layering',
     price: 10000,
     priceFormatted: '₦10,000',
-    image: '/assets/images/kimono_chiffon_robe.jpg',
+    image: '/assets/images/kimono_floral_trim_satin_02.jpg',
     gallery: [
-      '/assets/images/kimono_chiffon_robe.jpg'
+      '/assets/images/kimono_floral_trim_satin_02.jpg',
+      '/assets/images/kimono_floral_trim_white_inner_03.jpg',
+      '/assets/images/kimono_navy_blue_inner_04.jpg'
     ],
     isNewArrival: true,
-    isPopular: false,
+    isPopular: true,
     availability: 'In Stock',
-    condition: 'Lightweight open kimono cover',
-    sizes: ['Free Size (S to XXL)'],
-    colors: ['Dusty Rose', 'Olive Green', 'Jet Black'],
-    description: 'Flowing open-front chiffon kimono cover-up. Ideal for layering over basic dresses or inner abayas for an effortless fashion drape.',
+    condition: 'Select open kimono cover layer with inner dress',
+    sizes: ['Free Size (Fits 52 - 58)'],
+    colors: ['Floral Border Black', 'Solid Midnight Navy', 'Satin Inner Layer'],
+    description: 'Flowing open-front kimono featuring detailed floral lace embroidery along the lapels and cuffs. Paired with a silk-touch inner gown.',
     features: [
-      'Semi-sheer elegant chiffon fabric',
-      'Wide kimomo sleeve silhouette',
+      'Premium floral embroidery on sleeves and collar',
+      'Includes waist tie cord with tassel ends',
       'Versatile daily and occasion layering piece'
     ],
     wholesaleAvailable: true,

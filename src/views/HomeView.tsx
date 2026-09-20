@@ -63,7 +63,7 @@ export const HomeView: React.FC<HomeViewProps> = ({
       subtitle: '₦10,000–₦15,000',
       tag: '2-Piece & Chiffon Outer',
       cat: 'Kimonos',
-      image: '/assets/images/kinomo_set_mannequin_1789896343549.jpg'
+      image: '/assets/images/kimono_black_embroidered_belt_01.jpg'
     },
     {
       name: 'Gown Dresses',
