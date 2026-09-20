@@ -84,27 +84,56 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'kids-abaya-08',
-    name: 'Kids\' Premium Modest Abaya',
+    name: 'Kids\' Premium Modest Abaya & Gown',
     category: 'Kids\' Abayas',
     subCategory: 'Children Modest Abaya',
     price: 6000,
     priceFormatted: '₦6,000',
-    image: '/assets/images/kids_abaya_collection.jpg',
+    image: '/assets/images/kids_abaya_pink_embroidered_01.jpg',
     gallery: [
-      '/assets/images/kids_abaya_collection.jpg',
-      '/assets/images/kiddies_abaya_mannequin_1789896358376.jpg'
+      '/assets/images/kids_abaya_pink_embroidered_01.jpg',
+      '/assets/images/kids_abaya_brown_tulle_frill_02.jpg',
+      '/assets/images/kids_abaya_black_open_front_04.jpg',
+      '/assets/images/kids_abaya_floral_blue_satin_03.jpg'
     ],
     isNewArrival: true,
     isPopular: true,
     availability: 'In Stock',
-    condition: 'Clean, comfortable quality wear for young girls',
+    condition: 'Clean, comfortable quality modest wear for young girls',
     sizes: ['Ages 4-6', 'Ages 7-9', 'Ages 10-13'],
-    colors: ['Soft Pastel Pink', 'Lilac Violet', 'Cream Gold', 'Navy'],
-    description: 'Charming and modest abayas tailored specifically for young girls. Made with soft, skin-friendly lightweight fabrics and delicate embroidery.',
+    colors: ['Soft Pink Embroidered', 'Cocoa Brown & Blue Tulle Frill', 'Black Open-Front & White Inner', 'Floral Blue Satin'],
+    description: 'Charming and modest abayas tailored specifically for young girls. Features delicate neck embroidery, frill cuffs, satin prints, and open-front layering styles with tassel waist ties.',
     features: [
-      'Soft breathable fabric for kids\' active comfort',
-      'Simple zip or button modest front',
-      'Pre-washed and ironed before packaging'
+      'Soft breathable fabric designed for kids\' active comfort',
+      'Intricate embroidery, frills & tassel tie waist accents',
+      'Pre-washed and steam-ironed before packaging',
+      'Available for retail order and bulk reseller packages'
+    ],
+    wholesaleAvailable: true,
+  },
+  {
+    id: 'kids-open-abaya-set-16',
+    name: 'Kids\' 2-Piece Open Abaya & Inner Dress',
+    category: 'Kids\' Abayas',
+    subCategory: 'Children Open Abaya',
+    price: 6500,
+    priceFormatted: '₦6,500',
+    image: '/assets/images/kids_abaya_black_open_front_04.jpg',
+    gallery: [
+      '/assets/images/kids_abaya_black_open_front_04.jpg',
+      '/assets/images/kids_abaya_brown_tulle_frill_02.jpg'
+    ],
+    isNewArrival: true,
+    isPopular: true,
+    availability: 'In Stock',
+    condition: 'Complete 2-piece open outer abaya + white inner dress + tassel belt',
+    sizes: ['Ages 5-7', 'Ages 8-10', 'Ages 11-13'],
+    colors: ['Jet Black Outer & White Inner', 'Cocoa Brown & Sky Blue Tulle'],
+    description: 'A cute 2-piece open-front abaya set for young girls featuring a flowing outer cloak, a clean inner gown, and a black braided tassel waist tie.',
+    features: [
+      'Includes open outer coat + inner gown + waist tie belt',
+      'Lightweight and graceful modest drape',
+      'Washed and steam-ironed ready to wear'
     ],
     wholesaleAvailable: true,
   },

@@ -49,7 +49,7 @@ export const HomeView: React.FC<HomeViewProps> = ({
       subtitle: 'From ₦6,000',
       tag: 'Cute Modest Styles',
       cat: 'Kids\' Abayas',
-      image: '/assets/images/kids_abaya_collection.jpg'
+      image: '/assets/images/kids_abaya_pink_embroidered_01.jpg'
     },
     {
       name: 'Jalabiyas',
