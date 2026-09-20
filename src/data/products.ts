@@ -9,10 +9,10 @@ export const PRODUCTS: Product[] = [
     subCategory: 'Classic Abaya',
     price: 9000,
     priceFormatted: '₦9,000',
-    image: '/src/assets/images/classic_abaya_mannequin_1789896383443.jpg',
+    image: '/assets/images/classic_abaya_mannequin_1789896383443.jpg',
     gallery: [
-      '/src/assets/images/classic_abaya_mannequin_1789896383443.jpg',
-      '/src/assets/images/hero_editorial_mannequin_1789896317613.jpg'
+      '/assets/images/classic_abaya_mannequin_1789896383443.jpg',
+      '/assets/images/hero_editorial_mannequin_1789896317613.jpg'
     ],
     isPopular: true,
     isNewArrival: false,
@@ -36,10 +36,10 @@ export const PRODUCTS: Product[] = [
     subCategory: 'New Arrival Modest Wear',
     price: 12000,
     priceFormatted: '₦12,000',
-    image: '/src/assets/images/hero_editorial_mannequin_1789896317613.jpg',
+    image: '/assets/images/hero_editorial_mannequin_1789896317613.jpg',
     gallery: [
-      '/src/assets/images/hero_editorial_mannequin_1789896317613.jpg',
-      '/src/assets/images/classic_abaya_mannequin_1789896383443.jpg'
+      '/assets/images/hero_editorial_mannequin_1789896317613.jpg',
+      '/assets/images/classic_abaya_mannequin_1789896383443.jpg'
     ],
     isNewArrival: true,
     isPopular: true,
@@ -64,9 +64,9 @@ export const PRODUCTS: Product[] = [
     price: 12500,
     priceFormatted: '₦10,000 – ₦15,000',
     priceNote: 'Price: ₦10,000 – ₦15,000 depending on style',
-    image: '/src/assets/images/kinomo_set_mannequin_1789896343549.jpg',
+    image: '/assets/images/kinomo_set_mannequin_1789896343549.jpg',
     gallery: [
-      '/src/assets/images/kinomo_set_mannequin_1789896343549.jpg'
+      '/assets/images/kinomo_set_mannequin_1789896343549.jpg'
     ],
     isNewArrival: true,
     isPopular: true,
@@ -90,9 +90,9 @@ export const PRODUCTS: Product[] = [
     subCategory: 'Adult Modest Jalabia',
     price: 6000,
     priceFormatted: '₦6,000',
-    image: '/src/assets/images/white_jalabia_mannequin_1789896330008.jpg',
+    image: '/assets/images/white_jalabia_mannequin_1789896330008.jpg',
     gallery: [
-      '/src/assets/images/white_jalabia_mannequin_1789896330008.jpg'
+      '/assets/images/white_jalabia_mannequin_1789896330008.jpg'
     ],
     isNewArrival: true,
     isPopular: false,
@@ -116,9 +116,9 @@ export const PRODUCTS: Product[] = [
     subCategory: 'Children Modest Wear',
     price: 6000,
     priceFormatted: '₦6,000',
-    image: '/src/assets/images/kiddies_abaya_mannequin_1789896358376.jpg',
+    image: '/assets/images/kiddies_abaya_mannequin_1789896358376.jpg',
     gallery: [
-      '/src/assets/images/kiddies_abaya_mannequin_1789896358376.jpg'
+      '/assets/images/kiddies_abaya_mannequin_1789896358376.jpg'
     ],
     isNewArrival: false,
     isPopular: true,
@@ -142,9 +142,9 @@ export const PRODUCTS: Product[] = [
     subCategory: 'Modest Tops & Maxi Gowns',
     price: 2000,
     priceFormatted: '₦2,000',
-    image: '/src/assets/images/thrift_gown_mannequin_1789896370138.jpg',
+    image: '/assets/images/thrift_gown_mannequin_1789896370138.jpg',
     gallery: [
-      '/src/assets/images/thrift_gown_mannequin_1789896370138.jpg'
+      '/assets/images/thrift_gown_mannequin_1789896370138.jpg'
     ],
     isNewArrival: false,
     isPopular: true,

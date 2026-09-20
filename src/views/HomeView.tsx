@@ -42,42 +42,42 @@ export const HomeView: React.FC<HomeViewProps> = ({
       subtitle: 'From ₦9,000',
       tag: 'Grade-A Thrift & New Drops',
       cat: 'Abayas',
-      image: '/src/assets/images/classic_abaya_mannequin_1789896383443.jpg'
+      image: '/assets/images/classic_abaya_mannequin_1789896383443.jpg'
     },
     {
       name: 'Jalabiyas',
       subtitle: 'From ₦6,000',
       tag: 'Clean Whites & Colored',
       cat: 'Jalabiyas',
-      image: '/src/assets/images/white_jalabia_mannequin_1789896330008.jpg'
+      image: '/assets/images/white_jalabia_mannequin_1789896330008.jpg'
     },
     {
       name: 'Kinomo Sets',
       subtitle: '₦10,000–₦15,000',
       tag: '2-Piece with Inner Dress',
       cat: 'Kinomo',
-      image: '/src/assets/images/kinomo_set_mannequin_1789896343549.jpg'
+      image: '/assets/images/kinomo_set_mannequin_1789896343549.jpg'
     },
     {
       name: 'Kiddies Wear',
       subtitle: 'From ₦6,000',
       tag: 'Modest Kids Styles',
       cat: 'Kiddies Wear',
-      image: '/src/assets/images/kiddies_abaya_mannequin_1789896358376.jpg'
+      image: '/assets/images/kiddies_abaya_mannequin_1789896358376.jpg'
     },
     {
       name: 'Tops & Gowns',
       subtitle: 'From ₦2,000',
       tag: 'Everyday Essentials',
       cat: 'Thrift Tops & Gowns',
-      image: '/src/assets/images/thrift_gown_mannequin_1789896370138.jpg'
+      image: '/assets/images/thrift_gown_mannequin_1789896370138.jpg'
     },
     {
       name: 'Wholesale & Resale',
       subtitle: 'Bulk Purchase Packages',
       tag: 'For Vendors & Boutiques',
       cat: 'Wholesale / Bulk',
-      image: '/src/assets/images/hero_editorial_mannequin_1789896317613.jpg'
+      image: '/assets/images/hero_editorial_mannequin_1789896317613.jpg'
     }
   ];
 
@@ -200,7 +200,7 @@ export const HomeView: React.FC<HomeViewProps> = ({
                 {/* Visual Editorial Frame */}
                 <div className="relative aspect-3/4 rounded-3xl overflow-hidden shadow-2xl border border-[#EAE2D7] bg-[#F5EFE6]">
                   <img
-                    src="/src/assets/images/hero_editorial_mannequin_1789896317613.jpg"
+                    src="/assets/images/hero_editorial_mannequin_1789896317613.jpg"
                     alt="Pearls Elegance Editorial Modest Abaya Collection"
                     referrerPolicy="no-referrer"
                     className="w-full h-full object-cover object-center"
@@ -399,7 +399,7 @@ export const HomeView: React.FC<HomeViewProps> = ({
             <div className="lg:col-span-5">
               <div className="relative rounded-2xl overflow-hidden border border-[#EAE2D7] shadow-lg bg-white">
                 <img
-                  src="/src/assets/images/kinomo_set_mannequin_1789896343549.jpg"
+                  src="/assets/images/kinomo_set_mannequin_1789896343549.jpg"
                   alt="Modest fashion craft"
                   referrerPolicy="no-referrer"
                   className="w-full h-80 sm:h-96 object-cover object-center"

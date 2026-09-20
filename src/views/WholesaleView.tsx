@@ -110,7 +110,7 @@ export const WholesaleView: React.FC = () => {
           <div className="lg:col-span-4 hidden lg:block">
             <div className="aspect-3/4 rounded-2xl overflow-hidden border border-[#3A3530] shadow-lg">
               <img
-                src="/src/assets/images/hero_editorial_mannequin_1789896317613.jpg"
+                src="/assets/images/hero_editorial_mannequin_1789896317613.jpg"
                 alt="Wholesale Modest Collection"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover object-center"

@@ -91,7 +91,7 @@ export const AboutView: React.FC<AboutViewProps> = ({
         <div className="lg:col-span-6">
           <div className="relative rounded-3xl overflow-hidden shadow-xl border border-[#EAE2D7] bg-[#F5EFE6]">
             <img
-              src="/src/assets/images/kinomo_set_mannequin_1789896343549.jpg"
+              src="/assets/images/kinomo_set_mannequin_1789896343549.jpg"
               alt="Pearls Elegance Modest Wear on Mannequin"
               referrerPolicy="no-referrer"
               className="w-full h-full object-cover object-center aspect-4/3"
