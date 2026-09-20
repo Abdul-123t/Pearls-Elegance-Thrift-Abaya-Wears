@@ -29,11 +29,13 @@ export const WholesaleView: React.FC = () => {
   const [submitted, setSubmitted] = useState(false);
 
   const productOptions = [
-    'Thrift Abayas',
-    'New Arrival Abayas',
-    'Adult Jalabias (Clean White & Colors)',
-    'Thrift Kinomo with Inner Dress Sets',
-    'Kiddies Abaya & Jalabia',
+    'Adults\' Abayas',
+    'Kids\' Abayas & Jalabias',
+    'Adults\' Jalabias (Clean White & Colors)',
+    'Kimonos & Kinomo Sets',
+    'Gown Dresses',
+    'Heinna Essentials (Stickers, Cups, Paste)',
+    'Thrift Socks (Black, Blue, Brown)',
     'Thrift Tops & Gowns',
     'Mixed Modest Wear Selection'
   ];

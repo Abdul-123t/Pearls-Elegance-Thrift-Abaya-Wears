@@ -42,10 +42,13 @@ export const ShopView: React.FC<ShopViewProps> = ({
 
   const categoriesList: ProductCategory[] = [
     'All',
-    'Abayas',
+    'Adults\' Abayas',
+    'Kids\' Abayas',
     'Jalabiyas',
-    'Kinomo',
-    'Kiddies Wear',
+    'Kimonos',
+    'Gown Dresses',
+    'Henna Essentials',
+    'Socks & Accessories',
     'Thrift Tops & Gowns',
     'New Arrivals',
     'Wholesale / Bulk',
@@ -56,15 +59,23 @@ export const ShopView: React.FC<ShopViewProps> = ({
     return products.filter((product) => {
       // Category check
       if (selectedCategory !== 'All') {
-        if (selectedCategory === 'New Arrivals' && !product.isNewArrival) {
-          return false;
-        } else if (selectedCategory === 'Wholesale / Bulk' && !product.wholesaleAvailable) {
-          return false;
-        } else if (
-          selectedCategory !== 'New Arrivals' && 
-          selectedCategory !== 'Wholesale / Bulk' && 
-          product.category !== selectedCategory
-        ) {
+        if (selectedCategory === 'New Arrivals') {
+          if (!product.isNewArrival) return false;
+        } else if (selectedCategory === 'Wholesale / Bulk') {
+          if (!product.wholesaleAvailable) return false;
+        } else if (selectedCategory === 'Abayas') {
+          if (product.category !== 'Adults\' Abayas' && product.category !== 'Kids\' Abayas' && product.category !== 'Abayas') {
+            return false;
+          }
+        } else if (selectedCategory === 'Kinomo') {
+          if (product.category !== 'Kimonos' && product.category !== 'Kinomo') {
+            return false;
+          }
+        } else if (selectedCategory === 'Kiddies Wear') {
+          if (product.category !== 'Kids\' Abayas' && product.category !== 'Kiddies Wear' && !product.name.toLowerCase().includes('kids')) {
+            return false;
+          }
+        } else if (product.category !== selectedCategory) {
           return false;
         }
       }

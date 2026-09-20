@@ -38,43 +38,57 @@ export const HomeView: React.FC<HomeViewProps> = ({
 
   const categoryVisuals = [
     {
-      name: 'Abayas',
+      name: 'Adults\' Abayas',
       subtitle: 'From ₦9,000',
       tag: 'Grade-A Thrift & New Drops',
-      cat: 'Abayas',
+      cat: 'Adults\' Abayas',
       image: '/assets/images/classic_abaya_mannequin_1789896383443.jpg'
     },
     {
-      name: 'Jalabiyas',
+      name: 'Kids\' Abayas',
       subtitle: 'From ₦6,000',
-      tag: 'Clean Whites & Colored',
+      tag: 'Cute Modest Styles',
+      cat: 'Kids\' Abayas',
+      image: '/assets/images/kids_abaya_collection.jpg'
+    },
+    {
+      name: 'Jalabiyas',
+      subtitle: 'From ₦5,500',
+      tag: 'Kids & Adult Whites/Colors',
       cat: 'Jalabiyas',
       image: '/assets/images/white_jalabia_mannequin_1789896330008.jpg'
     },
     {
-      name: 'Kinomo Sets',
+      name: 'Kimonos',
       subtitle: '₦10,000–₦15,000',
-      tag: '2-Piece with Inner Dress',
-      cat: 'Kinomo',
+      tag: '2-Piece & Chiffon Outer',
+      cat: 'Kimonos',
       image: '/assets/images/kinomo_set_mannequin_1789896343549.jpg'
     },
     {
-      name: 'Kiddies Wear',
-      subtitle: 'From ₦6,000',
-      tag: 'Modest Kids Styles',
-      cat: 'Kiddies Wear',
-      image: '/assets/images/kiddies_abaya_mannequin_1789896358376.jpg'
+      name: 'Gown Dresses',
+      subtitle: 'From ₦8,500',
+      tag: 'Flowing Maxi Gowns',
+      cat: 'Gown Dresses',
+      image: '/assets/images/gown_dress_modest.jpg'
     },
     {
-      name: 'Tops & Gowns',
-      subtitle: 'From ₦2,000',
-      tag: 'Everyday Essentials',
-      cat: 'Thrift Tops & Gowns',
-      image: '/assets/images/thrift_gown_mannequin_1789896370138.jpg'
+      name: 'Henna Essentials',
+      subtitle: 'From ₦1,000',
+      tag: 'Stickers, Cups & Paste',
+      cat: 'Henna Essentials',
+      image: '/assets/images/henna_paste_cone.jpg'
+    },
+    {
+      name: 'Thrift Socks',
+      subtitle: '₦1,500 (3 Pairs)',
+      tag: 'Black, Navy & Brown Pack',
+      cat: 'Socks & Accessories',
+      image: '/assets/images/thrift_socks_pack.jpg'
     },
     {
       name: 'Wholesale & Resale',
-      subtitle: 'Bulk Purchase Packages',
+      subtitle: 'Bulk Packages',
       tag: 'For Vendors & Boutiques',
       cat: 'Wholesale / Bulk',
       image: '/assets/images/hero_editorial_mannequin_1789896317613.jpg'
@@ -311,7 +325,7 @@ export const HomeView: React.FC<HomeViewProps> = ({
           </p>
         </div>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
+        <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-4 gap-4">
           {categoryVisuals.map((item, idx) => (
             <button
               key={idx}

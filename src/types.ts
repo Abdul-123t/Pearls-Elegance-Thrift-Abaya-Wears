@@ -1,11 +1,17 @@
 export type ProductCategory =
   | 'All'
-  | 'Abayas'
+  | 'Adults\' Abayas'
+  | 'Kids\' Abayas'
   | 'Jalabiyas'
+  | 'Kimonos'
+  | 'Gown Dresses'
+  | 'Henna Essentials'
+  | 'Socks & Accessories'
+  | 'Thrift Tops & Gowns'
+  | 'Abayas'
+  | 'Kinomo'
   | 'Dresses'
   | 'Kiddies Wear'
-  | 'Thrift Tops & Gowns'
-  | 'Kinomo'
   | 'New Arrivals'
   | 'Wholesale / Bulk';
 
